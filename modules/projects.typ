@@ -1,15 +1,27 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Projects & Associations")
+#cvSection("Proyectos")
 
 #cvEntry(
-  title: [Volunteer Data Analyst],
-  society: [ABC Nonprofit Organization],
-  date: [2019 - Present],
-  location: [New York, NY],
+  title: [Chat Bot con dialog Flow],
+  society: [UNITEC],
+  date: [2023 - Present],
+  location: [CDMX, MX],
   description: list(
-    [Analyze donor and fundraising data to identify trends and opportunities for growth],
-    [Create data visualizations and dashboards to communicate insights to the board of directors],
-    [Collaborate with other volunteers to develop and implement data-driven strategies]
+    [Desarrollo de un chat bot que se hace pasar por un ser humano para resolver dudas de los alumnos de la universidad],
+    [Se utliza dialog flow para el desarrollo del chat bot],
+    [Implementado en un servidor de discord y un servidor de telegram]
+  )
+)
+
+#cvEntry(
+  title: [Diseño de una base de datos para una concesionaria de autos],
+  society: [UNITEC],
+  date: [2022 - 2022],
+  location: [CDMX, MX],
+  description: list(
+    [Desarrollo de un MER para una concesionaria de autos],
+    [Normalización de la base de datos],
+    [Implementado en Oracle SQL]
   )
 )

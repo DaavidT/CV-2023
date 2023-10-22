@@ -1,21 +1,26 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Certificates")
+#cvSection("Certificaciones")
 
 #cvHonor(
-  date: [2022],
-  title: [AWS Certified Security],
-  issuer: [Amazon Web Services (AWS)],
+  date: [2023],
+  title: [Associate Oracle Cloud Infrastructure Foundations],
+  issuer: [Oracle],
 )
 
 #cvHonor(
   date: [2017],
-  title: [Applied Data Science with Python],
-  issuer: [Coursera]
+  title: [CCNAv7: Enterprise Networking, Security, and Automation],
+  issuer: [Cisco]
 )
 
 #cvHonor(
-  date: [],
-  title: [SQL Fundamentals Track],
-  issuer: [Datacamp]
+  date: [2022],
+  title: [CCNAv7: Switching, Routing, and Wireless Essentials],
+  issuer: [Cisco]
+)
+#cvHonor(
+  date: [2022],
+  title: [CCNAv7: Introduction to Networks],
+  issuer: [Cisco]
 )

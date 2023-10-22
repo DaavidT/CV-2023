@@ -1,40 +1,29 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Professional Experience")
+#cvSection("Experiencia Profesional")
 
 #cvEntry(
-    title: [Director of Data Science],
-    society: [XYZ Corporation],
-    logo: "../src/logos/xyz_corp.png",
-    date: [2020 - Present],
-    location: [San Francisco, CA],
+    title: [Becario en desarrollo de software web y móvil],
+    society: [Central Invirzo],
+    logo: "../src/logos/invirtual.png",
+    date: [2023 - Actualidad],
+    location: [CDMX, MX],
     description: list(
-      [Lead a team of data scientists and analysts to develop and implement data-driven strategies, develop predictive models and algorithms to support decision-making across the organization],
-      [Collaborate with executive leadership to identify business opportunities and drive growth, implement best practices for data governance, quality, and security],
+      [Liderar una parte del desarrollo front-end de una aplicación móvil sobre una red social en tiempo real],
+      [Dar mantenimiento a una aplicación web de un ERP para la gestión de proyectos de tecnología],
     ),
-    tags: ("Tags Example here", "Dataiku", "Snowflake", "SparkSQL")
+    tags: ("React Native", "Laravel", "Javascript", "PHP", "MySQL")
 )
 
 #cvEntry(
-    title: [Data Analyst],
-    society: [ABC Company],
-    logo: "../src/logos/abc_company.png",
-    date: [2017 - 2020],
-    location: [New York, NY],
+    title: [Prácticas profesionales como asesor de TI],
+    society: [Central Invirzo],
+    logo: "../src/logos/invirtual.png",
+    date: [2022 - 2023],
+    location: [CDMX, MX],
     description: list(
-      [Analyze large datasets using SQL and Python, collaborate with cross-functional teams to identify business insights],
-      [Create data visualizations and dashboards using Tableau, develop and maintain data pipelines using AWS],
-    )
-)
-
-#cvEntry(
-    title: [Data Analysis Intern],
-    society: [PQR Corporation],
-    logo: "../src/logos/pqr_corp.png",
-    date: [Summer 2017],
-    location: [Chicago, IL],
-    description: list(
-      [Assisted with data cleaning, processing, and analysis using Python and Excel, participated in team meetings and contributed to project planning and execution],
-      [Developed data visualizations and reports to communicate insights to stakeholders, collaborated with other interns and team members to complete projects on time and with high quality],
-    )
+      [Brindar asesoría en el uso de herramientas de TI a los empleados de la empresa],	
+      [Dar manteminiento a páginas web de clientes utilizando PHP y Laravel],
+    ),
+    tags: ("PHP", "Worpress", "WHM", "SMTP", "Laravel")
 )
